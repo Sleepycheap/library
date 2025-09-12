@@ -4,10 +4,29 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Library</title>
-  <script src="script.js"></script>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  
+  <div class="container">
+    <button type="button">Click here to add a book to your library!</button>
+    <button type="button" class="reveal">Click here to see your library</button>
+  </div>
+  <div class="input hide">
+    <div class="header">Please Enter Book Information</div>
+    <form>
+      <label for="title" class="title form">Title:</label>
+      <input type="text" id="title" name="title">
+      <label for="author" class="author form">Author:</label>
+      <input type="text" id="author" name="author">
+      <label for="genre" class="genre form">Genre:</label>
+      <input type="text" id="genre" name="genre">
+      <input type="submit" id="submitButton">
+    </form>
+  </div>
+
+  <div class="books">
+    <span>Your Current Library</span>
+  </div>
+  <script src="script.js"></script>
 </body>
 </html>
