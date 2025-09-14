@@ -30,14 +30,10 @@ button {
 }
 
 .books {
-  border: 8px solid black;
-  overflow-wrap: wrap;
+  display: flex;
   align-content: center;
   justify-content: center;
   justify-items: center;
-  gap: 20px;
-  justify-content: space-between;
-
 }
 .boxes {
   border: 2px dotted black;
