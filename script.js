@@ -1,14 +1,6 @@
 
 
-const myLibrary = [{
-  "title": "This is the first book",
-  "author": "guy one",
-  "genre": "sci-fi"
-}, {
-  "title": "this is the second book",
-  "author": "guy two",
-  "genre": "fantasy"
-}];
+const myLibrary = [];
 
 const displayed = [];
 const read = [];
